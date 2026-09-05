@@ -1,0 +1,8 @@
+python-dotenv
+langchain
+langchain-core
+langchain-groq
+pytz
+textual
+langchain-openai
+openai

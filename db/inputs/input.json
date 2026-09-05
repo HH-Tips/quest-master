@@ -1,0 +1,5 @@
+{
+    "lore": "Recuperare la pietra di luna nascosta in una cripta, il cui accesso è bloccato da un sigillo magico.",
+    "branching_factor": [2,4],
+    "depth_constraint": [4,7]
+}

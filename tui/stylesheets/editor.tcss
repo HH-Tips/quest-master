@@ -1,0 +1,107 @@
+TextualEditorScreen {
+    background: $surface;
+}
+
+#main-container {
+    height: 100%;
+    width: 100%;
+    padding: 1;
+    layout: vertical;
+}
+
+TabbedContent {
+    height: 1fr;
+}
+
+TabPane {
+    padding: 0;
+    height: 1fr;
+}
+
+/* Editor principali */
+#editor-hint, #editor-pddl {
+    height: 1fr;
+    width: 100%;
+    border: solid $accent;
+}
+
+/* Contenitore per l'input LLM */
+#llm-input-container {
+    height: 3;
+    min-height: 3;
+    width: 100%;
+    margin: 1 0;
+    display: none;
+    align: center middle; /* Corretto: ora ha due valori */
+}
+
+#llm-input {
+    height: 3;
+    min-height: 3;
+    width: 1fr;
+    border: double $primary;
+    margin: 0;
+}
+
+#btn-send-llm {
+    height: 3;
+    min-height: 3;
+    width: auto;
+    margin: 0 1;
+}
+
+#btn-close-llm {
+    height: 3;
+    min-height: 3;
+    width: 6;
+    min-width: 6;
+    margin: 0 0 0 1;
+    background: $error;
+    color: $text;
+    border: none;
+}
+
+/* Barre dei pulsanti */
+#button-bar {
+    height: auto;
+    align: center middle;
+    padding: 1;
+    background: $surface;
+}
+
+.nav-container {
+    height: auto;
+    width: auto;
+    align: center middle;
+}
+
+#edit-actions {
+    display: none; /* Nascosto inizialmente */
+}
+
+Button {
+    width: 22;
+    margin: 0 1;
+}
+
+Button:focus {
+    text-style: none;
+    background: $primary;
+    color: $text;
+}
+
+#btn-conferma {
+    display: none
+}
+
+Button#btn-conferma:focus { background: $success; }
+Button#btn-ripristina:focus { background: $warning; }
+Button#btn-rigenera:focus { background: $error; }
+
+#status-display {
+    height: 1;
+    content-align: center middle;
+    background: $boost;
+    color: $text;
+    text-style: italic;
+}

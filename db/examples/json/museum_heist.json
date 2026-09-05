@@ -1,0 +1,130 @@
+{
+    "title": "Museum Heist: Il Furto della Gemma",
+    "objective": "Infiltrati nel museo, neutralizza le guardie, disattiva l'allarme della teca, ruba la gemma e fuggi dall'uscita senza farti catturare.",
+    "initialState": "entrance",
+    "states": {
+        "entrance": {
+            "description": "Sei all'ingresso del museo. La guardia 'guard1' sta pattugliando la zona. Il corridoio (hallway) è l'unica via d'accesso interna.",
+            "choices": [
+                { "text": "Usa la pistola tranquillante su guard1 (tranquilize-guard)", "next": "entrance_safe" },
+                { "text": "Corri verso il corridoio senza farti vedere (move)", "next": "caught_entrance" },
+                { "text": "Accendi la torcia per vedere meglio", "next": "caught_torch" }
+            ]
+        },
+        "caught_entrance": {
+            "description": "Hai cercato di muoverti mentre la guardia era attiva. 'guard1' ti ha sentito e ha dato l'allarme.",
+            "type": "defeat",
+            "message": "SCONFITTO: Sei stato catturato all'ingresso."
+        },
+        "caught_torch": {
+            "description": "La luce della torcia ha attirato immediatamente l'attenzione di 'guard1'.",
+            "type": "defeat",
+            "message": "SCONFITTO: Un ladro non dovrebbe usare luci forti in presenza di guardie."
+        },
+        "entrance_safe": {
+            "description": "Guard1 è a terra. La zona è sicura. Il corridoio (hallway) è libero.",
+            "choices": [
+                { "text": "Entra nel corridoio (move)", "next": "hallway" },
+                { "text": "Torna fuori per paura", "next": "retreat_defeat" }
+            ]
+        },
+        "retreat_defeat": {
+            "description": "Hai abbandonato la missione prima ancora di iniziare veramente.",
+            "type": "defeat",
+            "message": "SCONFITTO: Codardia."
+        },
+        "hallway": {
+            "description": "Sei nel corridoio. 'guard2' è di guardia qui. Senti il rumore dei suoi passi. La galleria (gallery) è alla fine del corridoio.",
+            "choices": [
+                { "text": "Usa la pistola tranquillante su guard2 (tranquilize-guard)", "next": "hallway_safe" },
+                { "text": "Cerca di strisciare fino alla galleria (move)", "next": "caught_hallway" }
+            ]
+        },
+        "caught_hallway": {
+            "description": "Il corridoio è troppo stretto. 'guard2' ti vede immediatamente e ti blocca.",
+            "type": "defeat",
+            "message": "SCONFITTO: Catturato nel corridoio."
+        },
+        "hallway_safe": {
+            "description": "Anche guard2 è fuori gioco. Ora hai accesso alla galleria principale.",
+            "choices": [
+                { "text": "Vai alla galleria (move)", "next": "gallery" }
+            ]
+        },
+        "gallery": {
+            "description": "Sei nella galleria. Al centro c'è la teca (case1) che contiene la gemma. La teca è chiusa e l'allarme è attivo.",
+            "choices": [
+                { "text": "Usa la cassetta degli attrezzi per disattivare l'allarme (disable-alarm)", "next": "gallery_alarm_off" },
+                { "text": "Usa la cassetta degli attrezzi per forzare la serratura (unlock-case)", "next": "gallery_unlocked" },
+                { "text": "Rompere il vetro e prendere la gemma (take-artifact)", "next": "alarm_death" }
+            ]
+        },
+        "gallery_alarm_off": {
+            "description": "Allarme disattivato. Ma la teca è ancora chiusa a chiave.",
+            "choices": [
+                { "text": "Usa la cassetta degli attrezzi per forzare la serratura (unlock-case)", "next": "gallery_ready" },
+                { "text": "Prendi la gemma (take-artifact)", "next": "case_locked_fail" }
+            ]
+        },
+        "gallery_unlocked": {
+            "description": "Teca sbloccata. Ma l'allarme rosso lampeggia ancora sul pannello.",
+            "choices": [
+                { "text": "Usa la cassetta degli attrezzi per disattivare l'allarme (disable-alarm)", "next": "gallery_ready" },
+                { "text": "Prendi la gemma (take-artifact)", "next": "alarm_death" }
+            ]
+        },
+        "gallery_ready": {
+            "description": "L'allarme è spento e la teca è aperta. La gemma brilla davanti a te.",
+            "choices": [
+                { "text": "Prendi la gemma (take-artifact)", "next": "carrying_gem" },
+                { "text": "Aspetta troppo a lungo", "next": "timeout_defeat" }
+            ]
+        },
+        "case_locked_fail": {
+            "description": "Tiri la gemma, ma il vetro della teca non si muove. Hai perso tempo prezioso.",
+            "choices": [
+                { "text": "Prova a forzare la serratura ora", "next": "gallery_ready" }
+            ]
+        },
+        "alarm_death": {
+            "description": "Appena tocchi la teca o rompi il vetro, un allarme assordante risuona in tutto il museo. Le porte blindate si chiudono. Sei in trappola.",
+            "type": "defeat",
+            "message": "SCONFITTO: L'allarme ti ha incastrato."
+        },
+        "timeout_defeat": {
+            "description": "I rinforzi sono arrivati per il cambio della guardia. Ti trovano all'interno della galleria.",
+            "type": "defeat",
+            "message": "SCONFITTO: Sei stato troppo lento."
+        },
+        "carrying_gem": {
+            "description": "Hai la gemma! Ora devi uscire. Puoi passare dalla stanza di sicurezza (security) o cercare l'uscita diretta (exit).",
+            "choices": [
+                { "text": "Vai verso la stanza di sicurezza (move)", "next": "security_room" },
+                { "text": "Cerca l'uscita diretta dalla galleria (move)", "next": "exit_direct" }
+            ]
+        },
+        "security_room": {
+            "description": "Nella stanza di sicurezza vedi i monitor. Tutto sembra tranquillo. L'uscita è proprio qui davanti.",
+            "choices": [
+                { "text": "Esci dal museo (exit-museum)", "next": "victory" },
+                { "text": "Controlla i monitor per vedere se ti seguono", "next": "caught_security" }
+            ]
+        },
+        "caught_security": {
+            "description": "Mentre guardi i monitor, una squadra SWAT irrompe nella stanza. Non avresti dovuto fermarti.",
+            "type": "defeat",
+            "message": "SCONFITTO: Catturato dalla SWAT."
+        },
+        "exit_direct": {
+            "description": "Corri verso l'uscita della galleria. Le porte automatiche si aprono.",
+            "choices": [
+                { "text": "Esci finalmente (exit-museum)", "next": "victory" }
+            ]
+        },
+        "victory": {
+            "description": "Sei fuori! La gemma è al sicuro nel tuo borsone. Il colpo del secolo è riuscito perfettamente.",
+            "type": "victory",
+            "message": "VITTORIA: Sei il re dei ladri!"
+        }
+    }
+}

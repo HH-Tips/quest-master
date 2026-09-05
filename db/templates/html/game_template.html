@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuestMaster Game</title>
+    <!-- Font Retro e Monospace caricati da Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #121212;
+            --terminal-bg: #181818;
+            --accent-blue: #0082fc;
+            --accent-orange: #ff9f1c;
+            --text-main: #e0e0e0;
+            --text-muted: #888888;
+            --success-color: #00ff66;
+            --failure-color: #ff3333;
+        }
+
+        body {
+            font-family: 'Share Tech Mono', monospace;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        /* Barra di sistema superiore */
+        #system-top-bar {
+            background-color: #1a1a1a;
+            border-bottom: 1px solid #2d2d2d;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1.5rem;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            user-select: none;
+            flex-shrink: 0;
+        }
+
+        .top-bar-left {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .system-dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--accent-orange);
+            border-radius: 50%;
+            display: inline-block;
+            box-shadow: 0 0 8px var(--accent-orange);
+        }
+
+        .top-bar-center {
+            font-weight: bold;
+            color: var(--text-main);
+        }
+
+        /* Contenitore Principale Gioco - Ora flessibile per la centratura totale */
+        #game-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            padding: 1.5rem;
+            box-sizing: border-box;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        /* Terminale principale */
+        #main-game-wrapper {
+            position: relative;
+            background-color: var(--terminal-bg);
+            border: 2px solid var(--accent-blue);
+            box-shadow: 0 0 20px rgba(0, 130, 252, 0.15);
+            padding: 2.5rem;
+            width: 100%;
+            max-width: 800px;
+            min-height: 450px;
+            box-sizing: border-box;
+            z-index: 10;
+        }
+
+        /* Effetto Scanline retro */
+        #main-game-wrapper::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0; left: 0; bottom: 0; right: 0;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.15) 50%);
+            z-index: 2;
+            background-size: 100% 4px;
+            pointer-events: none;
+            opacity: 0.4;
+        }
+
+        /* Logo e Intestazione */
+        .logo-container {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        h1#game-title {
+            font-family: 'Press Start 2P', monospace;
+            color: var(--accent-orange);
+            font-size: 2rem;
+            margin: 0;
+            text-shadow: 3px 3px 0px #9b5a00;
+            letter-spacing: -1px;
+            word-wrap: break-word;
+        }
+
+        /* Box di Descrizione Terminale */
+        #description-box {
+            font-size: 1.15rem;
+            line-height: 1.6;
+            margin-bottom: 2.5rem;
+            min-height: 120px;
+            border: 2px dashed var(--accent-blue);
+            padding: 1.5rem;
+            background-color: rgba(0, 130, 252, 0.03);
+            color: var(--text-main);
+            box-sizing: border-box;
+        }
+
+        /* Lista Scelte */
+        #choices-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        button, .restart-btn {
+            background-color: var(--accent-blue);
+            color: #ffffff;
+            border: none;
+            padding: 1.2rem;
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+            border-radius: 0;
+            box-shadow: 4px 4px 0px #0051a3;
+            position: relative;
+        }
+
+        button:hover, .restart-btn:hover {
+            background-color: var(--accent-orange);
+            color: #121212;
+            transform: translate(-2px, -2px);
+            box-shadow: 6px 6px 0px #9b5a00;
+        }
+
+        button:active, .restart-btn:active {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0px #9b5a00;
+        }
+
+        /* Card degli Obiettivi di Gioco agganciata in alto a sinistra */
+        #objective-card {
+            background-color: var(--terminal-bg);
+            padding: 1.5rem;
+            border: 2px dashed var(--accent-orange);
+            box-shadow: 4px 4px 0px rgba(255, 159, 28, 0.1);
+            font-size: 1rem;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+        }
+
+        #objective-card h3 {
+            margin-top: 0;
+            color: var(--accent-orange);
+            font-size: 1.2rem;
+            border-bottom: 2px solid var(--accent-orange);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            flex-shrink: 0;
+        }
+
+        #objective-content {
+            overflow-y: auto;
+            color: var(--text-main);
+            line-height: 1.5;
+        }
+
+        /* Media queries per posizionamento assoluto su Desktop e adattamento su Mobile */
+        @media (min-width: 1024px) {
+            #objective-card {
+                position: fixed;
+                left: 20px;
+                top: 55px; /* 35px di top-bar + 20px di margine */
+                width: 320px;
+                max-height: calc(100vh - 110px); /* Evita di coprire le barre */
+                z-index: 100;
+            }
+            #main-game-wrapper {
+                max-width: 800px;
+            }
+        }
+
+        @media (max-width: 1023px) {
+            body {
+                overflow: auto;
+                height: auto;
+                min-height: 100vh;
+            }
+            #game-container {
+                flex-direction: column;
+                justify-content: start;
+                align-items: stretch;
+                overflow: visible;
+                padding-bottom: 50px; /* Spazio per la barra inferiore fissa */
+            }
+            #objective-card {
+                position: static;
+                width: 100%;
+                margin-bottom: 1.5rem;
+                max-height: none;
+            }
+            #main-game-wrapper {
+                width: 100%;
+                min-height: auto;
+            }
+            #system-bottom-bar {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 200;
+            }
+        }
+
+        /* Scrollbar personalizzata nello stile del terminale */
+        #objective-content::-webkit-scrollbar,
+        #game-container::-webkit-scrollbar {
+            width: 6px;
+        }
+        #objective-content::-webkit-scrollbar-thumb,
+        #game-container::-webkit-scrollbar-thumb {
+            background-color: var(--accent-blue);
+        }
+        #objective-content::-webkit-scrollbar-track,
+        #game-container::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        /* Schermate di fine partita */
+        .status-screen {
+            display: none;
+            text-align: center;
+            animation: fadeIn 0.4s ease-in-out;
+        }
+
+        .status-screen h2 {
+            font-family: 'Press Start 2P', monospace;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .victory {
+            color: var(--success-color);
+            text-shadow: 0 0 10px rgba(0, 255, 102, 0.4);
+        }
+
+        .defeat {
+            color: var(--failure-color);
+            text-shadow: 0 0 10px rgba(255, 51, 51, 0.4);
+        }
+
+        .restart-btn {
+            display: inline-block;
+            margin-top: 2rem;
+            width: auto;
+            padding: 1.2rem 2.5rem;
+        }
+
+        /* Barra di sistema inferiore */
+        #system-bottom-bar {
+            background-color: #1a1a1a;
+            border-top: 1px solid #2d2d2d;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1.5rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            user-select: none;
+            flex-shrink: 0;
+            box-sizing: border-box;
+        }
+
+        .bottom-bar-left {
+            color: var(--text-muted);
+        }
+
+        .bottom-bar-right {
+            color: var(--accent-orange);
+            font-family: 'Press Start 2P', monospace;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        #move-count-val {
+            color: var(--success-color);
+            text-shadow: 0 0 5px rgba(0, 255, 102, 0.5);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Barra Superiore di Sistema -->
+<div id="system-top-bar">
+    <div class="top-bar-left">
+        <span class="system-dot"></span>
+    </div>
+    <div class="top-bar-center">QuestMasterApp</div>
+    <div class="top-bar-right" id="terminal-clock">--:--:--</div>
+</div>
+
+<div id="game-container">
+    <!-- Card dell'Obiettivo, ora agganciata in alto a sinistra su desktop tramite CSS -->
+    <div id="objective-card">
+        <h3>Obiettivo Missione</h3>
+        <div id="objective-content">
+            <p id="mission-objective">Definisci l'obiettivo nel JSON...</p>
+        </div>
+    </div>
+
+    <!-- Finestra Terminale Principale, ora centrata sulla pagina -->
+    <div id="main-game-wrapper">
+        <div id="main-game">
+            <div class="logo-container">
+                <h1 id="game-title">Caricamento...</h1>
+            </div>
+
+            <div id="description-box"></div>
+            <div id="choices-container"></div>
+        </div>
+
+        <div id="status-screen" class="status-screen">
+            <h2 id="status-title">In corso</h2>
+            <p id="status-message"></p>
+            <button class="restart-btn" onclick="resetGame()">Riprova l'avventura</button>
+        </div>
+    </div>
+</div>
+
+<!-- Barra Inferiore di Sistema con contatore mosse e senza elementi superflui -->
+<div id="system-bottom-bar">
+    <div class="bottom-bar-left">
+        <!-- Elementi superflui rimossi per pulizia -->
+    </div>
+    <div class="bottom-bar-right">
+        MOSSE: <span id="move-count-val">0</span>
+    </div>
+</div>
+
+<script>
+    const jsonData = $JSON_HERE;
+    let movesCount = 0;
+
+    function initGame() {
+        movesCount = 0;
+        updateMoveCounter();
+        document.getElementById('game-title').innerText = jsonData.title;
+        document.getElementById('mission-objective').innerText = jsonData.objective || "Nessun obiettivo specificato.";
+        renderState(jsonData.initialState);
+        startClock();
+    }
+
+    function renderState(stateKey) {
+        const state = jsonData.states[stateKey];
+        const mainGame = document.getElementById('main-game');
+        const statusScreen = document.getElementById('status-screen');
+
+        if (state.type === 'victory' || state.type === 'defeat') {
+            mainGame.style.display = 'none';
+            statusScreen.style.display = 'block';
+
+            const titleEl = document.getElementById('status-title');
+            titleEl.innerText = state.type === 'victory' ? "CONGRATULAZIONI!" : "GAME OVER";
+            titleEl.className = state.type;
+
+            document.getElementById('status-message').innerText = state.description + "\n\n" + state.message;
+            return;
+        }
+
+        mainGame.style.display = 'block';
+        statusScreen.style.display = 'none';
+
+        document.getElementById('description-box').innerText = state.description;
+
+        const choicesContainer = document.getElementById('choices-container');
+        choicesContainer.innerHTML = "";
+
+        state.choices.forEach(choice => {
+            const btn = document.createElement('button');
+            btn.innerText = choice.text;
+            btn.onclick = () => {
+                movesCount++;
+                updateMoveCounter();
+                renderState(choice.next);
+            };
+            choicesContainer.appendChild(btn);
+        });
+    }
+
+    function updateMoveCounter() {
+        const counterEl = document.getElementById('move-count-val');
+        if (counterEl) {
+            counterEl.innerText = movesCount;
+        }
+    }
+
+    function resetGame() {
+        movesCount = 0;
+        updateMoveCounter();
+        renderState(jsonData.initialState);
+    }
+
+    // Gestione dell'orologio interattivo in tempo reale nella barra superiore
+    function startClock() {
+        const clockEl = document.getElementById('terminal-clock');
+        if (clockEl) {
+            const update = () => {
+                const now = new Date();
+                const hh = String(now.getHours()).padStart(2, '0');
+                const mm = String(now.getMinutes()).padStart(2, '0');
+                const ss = String(now.getSeconds()).padStart(2, '0');
+                clockEl.innerText = `${hh}:${mm}:${ss}`;
+            };
+            update();
+            setInterval(update, 1000);
+        }
+    }
+
+    window.onload = initGame;
+</script>
+
+</body>
+</html>

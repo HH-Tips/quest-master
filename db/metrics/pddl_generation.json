@@ -1,0 +1,642 @@
+[
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia con il protagonista che si trova davanti all'ingresso di una cripta abbandonata, situata in un bosco fitto e oscuro. L'obiettivo finale \u00e8 recuperare la pietra di luna, un artefatto di grande valore, che si trova all'interno della cripta. Tuttavia, l'accesso alla cripta \u00e8 bloccato da un sigillo magico che impedisce l'apertura della porta.\n\nLo stato iniziale comprende:\n- Il protagonista davanti all'ingresso della cripta.\n- La porta della cripta bloccata dal sigillo magico.\n- La pietra di luna all'interno della cripta, su un altare.\n\nI possibili ostacoli sono:\n- Il sigillo magico che blocca la porta.\n- La presenza di un guardiano magico all'interno della cripta che protegge la pietra di luna.\n\n2. Context & Background:\nLa cripta fa parte di un antico complesso di tombe di una famiglia reale, famosa per le sue ricchezze e il suo potere magico. La pietra di luna \u00e8 un oggetto leggendario con poteri curativi eccezionali. La cripta \u00e8 stata sigillata per secoli per impedire la profanazione del luogo e la sottrazione degli artefatti di valore.\n\n3. Branching Factor:\nMin: 2, Max: 4 (come specificato dall'utente).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (come specificato dall'utente).",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia con il protagonista che si trova davanti all'ingresso di una cripta abbandonata, situata in un bosco fitto e oscuro. L'obiettivo finale \u00e8 recuperare la pietra di luna, un artefatto leggendario nascosto all'interno della cripta. Tuttavia, l'accesso alla cripta \u00e8 bloccato da un sigillo magico che impedisce l'apertura della porta d'ingresso.\n\nLo stato iniziale include:\n- Il protagonista davanti all'ingresso della cripta.\n- La porta d'ingresso bloccata dal sigillo magico.\n- La cripta con la pietra di luna al suo interno.\n\nL'obiettivo finale / Goal:\n- Il protagonista deve trovare un modo per rimuovere il sigillo magico e recuperare la pietra di luna.\n\nI possibili ostacoli:\n- Il sigillo magico che blocca l'ingresso.\n- Un guardiano notturno che pattuglia il bosco e potrebbe scoprire il protagonista.\n- Un enigma inciso sulla porta che richiede una soluzione per rimuovere il sigillo.\n\n2. Context & Background:\nLa cripta abbandonata \u00e8 situata in un bosco che \u00e8 stato teatro di numerose leggende e storie di fantasmi. La pietra di luna \u00e8 un artefatto antico e potente che si dice abbia il potere di controllare le fasi lunari. Il sigillo magico che blocca l'ingresso \u00e8 stato posto da un antico ordine di monaci per proteggere la pietra da coloro che avrebbero potuto usarla per scopi malvagi.\n\n3. Branching Factor:\nMin: 2, Max: 4 (specificato dall'utente).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (specificato dall'utente).",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 5,
+        "logic_errors": 2,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia con il protagonista che si trova davanti all'ingresso di una cripta abbandonata, situata in un bosco fitto e oscuro. L'obiettivo finale \u00e8 recuperare la pietra di luna, un artefatto leggendario nascosto all'interno della cripta. Tuttavia, l'accesso alla cripta \u00e8 bloccato da un sigillo magico che impedisce l'apertura della porta d'ingresso.\n\nLo stato iniziale comprende:\n- Il protagonista davanti all'ingresso della cripta.\n- La porta d'ingresso bloccata dal sigillo magico.\n- La cripta sigillata con la pietra di luna all'interno.\n\nL'obiettivo finale / Goal \u00e8:\n- Il protagonista che recupera la pietra di luna.\n\nI possibili ostacoli sono:\n- Il sigillo magico sulla porta d'ingresso.\n- Eventuali guardie o creature magiche all'interno della cripta.\n- Un enigma o una prova che deve essere superata per disattivare il sigillo.\n\n2. Context & Background:\nLa cripta fa parte di un antico ordine religioso che venerava la pietra di luna come simbolo di potere e saggezza. La pietra \u00e8 scomparsa secoli fa, e la cripta \u00e8 stata sigillata per proteggerla da coloro che avrebbero potuto usarla per scopi malvagi. Il sigillo magico \u00e8 stato creato per proteggere la pietra e mantenere il suo potere lontano da mani sbagliate.\n\n3. Branching Factor:\nMin: 2, Max: 4 (come specificato dall'utente).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (come specificato dall'utente).",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia con il protagonista che si trova di fronte a un'antica cripta, situata in un bosco remoto. La cripta \u00e8 nota per contenere la pietra di luna, un artefatto di grande valore. Tuttavia, l'ingresso della cripta \u00e8 bloccato da un sigillo magico che impedisce l'accesso.\n\nLo stato iniziale include:\n- Il protagonista davanti alla cripta.\n- La cripta con il sigillo magico attivo.\n- La pietra di luna all'interno della cripta, inaccessibile.\n\nL'obiettivo finale \u00e8:\n- Recuperare la pietra di luna.\n\nI possibili ostacoli sono:\n- Il sigillo magico che blocca l'ingresso.\n- La presenza di un guardiano magico all'interno della cripta.\n\n2. Context & Background:\nLa cripta fa parte di un antico ordine di monaci che veneravano la pietra di luna come simbolo di potere e saggezza. Il sigillo magico \u00e8 stato posto per proteggere la pietra da coloro che potrebbero usarla per scopi malvagi. Il guardiano magico \u00e8 stato programmato per eliminare chiunque tenti di accedere alla pietra senza autorizzazione.\n\n3. Branching Factor:\nMin: 2, Max: 4 (come specificato).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (come specificato). \n\nNota: Ho reso concreto il concetto di \"sigillo magico\" come un oggetto fisico che pu\u00f2 essere rimosso o disattivato, e ho mantenuto la coerenza logica degli ostacoli descritti, che possono essere superati tramite una sequenza logica di azioni.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 5,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia con il protagonista che si trova davanti all'ingresso di una cripta abbandonata, situata ai margini di un antico bosco. L'obiettivo finale \u00e8 recuperare la pietra di luna, un artefatto leggendario detto essere nascosto all'interno della cripta. Tuttavia, l'accesso alla cripta \u00e8 bloccato da un sigillo magico che impedisce l'apertura della porta d'ingresso.\n\nLo stato iniziale include:\n- Il protagonista davanti alla cripta.\n- La porta d'ingresso della cripta bloccata dal sigillo magico.\n- La presenza di un vecchio manoscritto nelle mani del protagonista, che contiene indizi su come rimuovere il sigillo.\n\nL'obiettivo finale \u00e8:\n- Rimuovere il sigillo magico.\n- Entrare nella cripta.\n- Recuperare la pietra di luna.\n\nI possibili ostacoli includono:\n- Il sigillo magico che blocca l'ingresso.\n- Un guardiano notturno che pattuglia il perimetro della cripta, sensibile a rumori forti.\n- Un enigma inciso sulla porta che richiede una soluzione specifica per attivare un meccanismo di apertura secondario.\n\n2. Context & Background:\nLa cripta fa parte di un ordine religioso antico, dedicato al culto della luna. La pietra di luna \u00e8 un artefatto sacro che amplifica il potere delle preghiere. La cripta \u00e8 stata sigillata per proteggere la pietra da coloro che potrebbero usarla per scopi malvagi. Il sigillo magico \u00e8 stato posto da un potente monaco che ha dedicato la sua vita a proteggere l'artefatto.\n\n3. Branching Factor:\nMin: 2, Max: 4 (come specificato dall'utente).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (come specificato dall'utente).",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 1,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia con il protagonista che si trova davanti all'ingresso di una cripta abbandonata, situata ai margini di un bosco fitto e oscuro. L'obiettivo finale \u00e8 recuperare la pietra di luna, un artefatto leggendario detto essere nascosto all'interno della cripta. Tuttavia, l'accesso alla cripta \u00e8 bloccato da un sigillo magico che impedisce l'apertura della porta d'ingresso.\n\nLo stato iniziale include:\n- Il protagonista davanti alla cripta.\n- La porta d'ingresso della cripta bloccata dal sigillo magico.\n- La pietra di luna non visibile, ma presumibilmente all'interno della cripta.\n\nI possibili ostacoli includono:\n- Il sigillo magico sulla porta d'ingresso.\n- Eventuali trappole all'interno della cripta.\n- La possibilit\u00e0 che la chiave per rompere il sigillo sia nascosta.\n\n2. Context & Background:\nLa cripta fa parte di un antico complesso di tombe di una famiglia reale che, secondo la leggenda, possedeva poteri magici straordinari. La pietra di luna \u00e8 creduta essere una fonte di potere e saggezza, capace di guidare il suo possessore verso grandi destini. La cripta \u00e8 stata sigillata per secoli, proteggendo il suo segreto pi\u00f9 prezioso, la pietra di luna, da coloro che potrebbero usarla per scopi malvagi.\n\n3. Branching Factor:\nMin: 2, Max: 4 (come specificato nell'input).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (come specificato nell'input).",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 3,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia con il protagonista che si trova di fronte a un'antica cripta, situata in un luogo remoto e circondata da una fitta vegetazione. La cripta \u00e8 l'unica struttura visibile nella zona e sembra essere stata sigillata per secoli. L'obiettivo finale \u00e8 recuperare la pietra di luna, un artefatto leggendario detto essere nascosto all'interno della cripta. Tuttavia, l'accesso alla cripta \u00e8 bloccato da un sigillo magico che impedisce l'apertura della porta d'ingresso.\n\nLo stato iniziale include:\n- Il protagonista davanti alla cripta.\n- La porta d'ingresso della cripta sigillata magicamente.\n- Nessun oggetto utile nelle immediate vicinanze.\n\nL'obiettivo finale / Goal:\n- Recuperare la pietra di luna dalla cripta.\n\nI possibili ostacoli:\n- Il sigillo magico sulla porta d'ingresso.\n- Eventuali trappole all'interno della cripta.\n- La presenza di un guardiano o un'entit\u00e0 magica che protegge la pietra di luna.\n\n2. Context & Background:\nLa cripta fa parte di un antico ordine religioso che venerava la pietra di luna come simbolo di potere e saggezza. La pietra di luna \u00e8 creduta avere propriet\u00e0 magiche che garantiscono grande potere a chi la possiede. La cripta e il sigillo magico sono stati creati per proteggere la pietra da coloro che potrebbero usarla per scopi malvagi.\n\n3. Branching Factor:\nMin: 2, Max: 4 (come specificato nell'input).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (come specificato nell'input).\n\nNota: Tutti i concetti astratti sono stati resi concreti e gli ostacoli descritti possono essere superati tramite una sequenza logica di azioni, permettendo a un classical planner di trovare una soluzione.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 1
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia con il protagonista che si trova davanti all'ingresso di una cripta abbandonata, situata in un bosco fitto e oscuro. L'obiettivo finale \u00e8 recuperare la pietra di luna, un artefatto leggendario nascosto all'interno della cripta. Tuttavia, l'accesso alla cripta \u00e8 bloccato da un sigillo magico che impedisce l'apertura della porta d'ingresso.\n\nLo stato iniziale comprende:\n- Il protagonista davanti all'ingresso della cripta.\n- La porta d'ingresso bloccata dal sigillo magico.\n- Una foresta buia e densa intorno alla cripta.\n\nL'obiettivo finale \u00e8:\n- Il protagonista che esce dalla cripta con la pietra di luna in mano.\n\nI possibili ostacoli sono:\n- Il sigillo magico sulla porta d'ingresso.\n- Un guardiano notturno che pattuglia la foresta, sensibile a rumori forti.\n- Un labirinto di corridoi nella cripta che potrebbe disorientare il protagonista.\n\n2. Context & Background:\nLa cripta abbandonata \u00e8 situata in una foresta remota, nota per essere stata il luogo di antichi rituali magici. La pietra di luna \u00e8 un artefatto di grande potere, capace di controllare le fasi lunari. Il sigillo magico \u00e8 stato posto per proteggere la pietra da coloro che potrebbero usarla per scopi malvagi.\n\n3. Branching Factor:\nMin: 2, Max: 4 (come specificato dall'utente).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (come specificato dall'utente).",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 2,
+        "logic_errors": 1,
+        "critical_errors": 2
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura ha inizio nel villaggio di Ashwood, dove il protagonista, un giovane erudito di nome Elian, apprende dell'esistenza di una pietra di luna nascosta all'interno di una cripta antica. Questa pietra di luna \u00e8 cruciale per la prosperit\u00e0 del villaggio, poich\u00e9 si dice che abbia il potere di guarire le terre aride e riportare la fertilit\u00e0. \n\nLo stato iniziale vede Elian nel villaggio di Ashwood, senza la pietra di luna. La cripta si trova a nord del villaggio, ma l'accesso \u00e8 bloccato da un sigillo magico che richiede una chiave specifica per essere aperto.\n\nL'obiettivo finale \u00e8 recuperare la pietra di luna dalla cripta.\n\nI possibili ostacoli includono:\n- Il sigillo magico che blocca l'ingresso della cripta.\n- Un gruppo di goblin che vive vicino alla cripta e potrebbe ostacolare il cammino di Elian.\n- Un enigma inciso sulla porta della cripta che richiede una soluzione per rivelare la posizione della chiave del sigillo.\n\n2. Context & Background:\nIl villaggio di Ashwood \u00e8 stato afflitto da una lunga siccit\u00e0, che ha portato a una grave carenza di cibo e acqua. Gli anziani del villaggio hanno parlato della pietra di luna come l'unica speranza per salvare il villaggio. La cripta in cui si trova la pietra \u00e8 stata sigillata per secoli, e molti hanno tentato di trovarla ma senza successo.\n\n3. Branching Factor:\nMin: 2, Max: 4 (come specificato nell'input).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (come specificato nell'input).",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia con il protagonista che si trova davanti all'ingresso di una cripta abbandonata, situata in un bosco fitto e oscuro. L'obiettivo finale \u00e8 recuperare la pietra di luna, un artefatto leggendario nascosto all'interno della cripta. Tuttavia, l'accesso alla cripta \u00e8 bloccato da un sigillo magico che impedisce l'apertura della porta d'ingresso.\n\nLo stato iniziale include:\n- Il protagonista davanti all'ingresso della cripta.\n- La porta d'ingresso bloccata dal sigillo magico.\n- La cripta con la pietra di luna al suo interno.\n\nL'obiettivo finale / Goal \u00e8:\n- Il protagonista che recupera la pietra di luna.\n\nI possibili ostacoli sono:\n- Il sigillo magico che blocca l'ingresso.\n- Eventuali trappole all'interno della cripta.\n- La necessit\u00e0 di trovare una chiave o un oggetto specifico per disattivare il sigillo.\n\n2. Context & Background:\nLa cripta fa parte di un antico complesso di tombe di una famiglia reale, famosa per le sue ricchezze e i suoi segreti. La pietra di luna \u00e8 una delle leggende pi\u00f9 persistenti, raccontata come un oggetto di immenso potere. La cripta \u00e8 stata sigillata per secoli, e molti hanno tentato di trovarla e aprire il sigillo, ma nessuno \u00e8 riuscito a recuperare la pietra.\n\n3. Branching Factor:\nMin: 2, Max: 4 (specificato dall'utente).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (specificato dall'utente).",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nLo stato iniziale \u00e8 rappresentato da Batman che si trova ai piedi del campanile, mentre l'operaio \u00e8 intrappolato all'interno e il Joker ha collocato una bomba da qualche parte nel campanile. L'obiettivo finale \u00e8 salvare l'operaio e uscire dal campanile indenne. Un obiettivo opzionale \u00e8 quello di trovare e disinnescare la bomba per prevenire un'esplosione.\n\nI possibili ostacoli includono:\n- La bomba stessa, che potrebbe esplodere prima che Batman riesca a salvarlo.\n- Le trappole o gli ostacoli fisici creati dal Joker all'interno del campanile.\n- La limitazione di tempo, poich\u00e9 Batman ha al massimo 10 slot di tempo per completare la missione.\n\n2. Context & Background:\nIl campanile, situato nel cuore di Gotham City, \u00e8 stato scelto dal Joker per il suo piano diabolico. Batman, essendo il protettore della citt\u00e0, \u00e8 immediatamente intervenuto per salvare l'operaio. Il Joker \u00e8 noto per la sua imprevedibilit\u00e0 e la sua capacit\u00e0 di creare trappole mortali.\n\n3. Branching Factor:\nMin: 2, Max: 4 (specificato dall'utente).\n\n4. Depth Constraints:\nMin: 4, Max: 11 (specificato dall'utente).\n\nNota: Ho mantenuto le specifiche fornite dall'utente riguardo al branching factor e depth constraint in quanto gi\u00e0 presenti e coerenti con la struttura richiesta.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                11
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia con il protagonista, un ladro di opere d'arte, che si trova davanti all'ingresso principale di un famoso museo. L'obiettivo finale \u00e8 rubare un'opera d'arte dal valore inestimabile, conosciuta come \"La Gemma Preziosa\". \n\nLo stato iniziale include:\n- Il ladro che si trova all'ingresso del museo.\n- Le guardie posizionate strategicamente all'interno e all'esterno del museo.\n- L'opera d'arte \"La Gemma Preziosa\" esposta in una teca di sicurezza nella galleria principale del museo.\n- Il ladro possiede un borsone contenente alcuni strumenti basilari per il furto: una pistola da tranquillizzare, un paio di guanti, una torcia, e una piccola cassa degli attrezzi.\n\nL'obiettivo finale / Goal \u00e8:\n- Rimuovere \"La Gemma Preziosa\" dalla teca di sicurezza e portarla fuori dal museo senza essere catturati.\n\nI possibili ostacoli includono:\n- Le guardie che pattugliano il museo.\n- La teca di sicurezza che richiede una combinazione specifica per essere aperta.\n- Un sistema di allarme collegato alla teca.\n\n2. Context & Background:\nIl museo \u00e8 conosciuto per la sua collezione di arte antica e rinascimentale. \"La Gemma Preziosa\" \u00e8 una delle attrazioni principali e si trova nella sezione pi\u00f9 sorvegliata del museo. Le guardie seguono un percorso di ronda prestabilito, ma sono addestrate a reagire rapidamente a qualsiasi situazione sospetta.\n\n3. Branching Factor:\nMin: 2, Max: 4 (in ogni stato, il ladro pu\u00f2 decidere di muoversi in una direzione diversa, interagire con un oggetto, o utilizzare uno strumento. Le opzioni sono limitate dalla situazione e dagli strumenti disponibili).\n\n4. Depth Constraints:\nMin: 4, Max: 11 (il ladro deve raggiungere la galleria principale, trovare un modo per aprire la teca, disattivare il sistema di allarme se presente, prendere \"La Gemma Preziosa\", e poi uscire. Gli ostacoli e le varie strategie per superarli possono estendere il numero di passi).",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                11
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nIn questo'avventura, il protagonista \u00e8 un giovane che vive in un villaggio ai margini di un regno devastato dalla guerra. Lo stato iniziale vede il protagonista nel suo villaggio natale, circondato dalle truppe nemiche che stanno rastrellando la zona. L'obiettivo finale \u00e8 raggiungere il confine con un paese neutrale, distante alcuni giorni di viaggio, e attraversarlo per mettersi in salvo.\n\nI possibili ostacoli includono:\n- Le truppe nemiche che pattugliano la campagna.\n- Un ponte sul fiume che segna il confine, ma \u00e8 controllato da un gruppo di soldati nemici.\n- Un gruppo di banditi che operano nella zona e potrebbero essere tanto amici quanto nemici.\n- Un'anciana che vive in una baita isolata lungo il cammino, la quale potrebbe fornire informazioni o aiuto.\n\n2. Context & Background:\nIl regno \u00e8 in guerra da anni, e le truppe nemiche hanno conquistato gran parte del territorio. I soldati sono ben addestrati e armati, e la popolazione locale \u00e8 stata duramente colpita. Il paese neutrale confinante \u00e8 noto per la sua politica di non intervento nei conflitti stranieri, ma ha messo in guardia i viaggiatori dal non avvicinarsi al confine durante il conflitto.\n\n3. Branching Factor:\nMin: 2 \nMax: 4 \n\n4. Depth Constraints:\nMin: 4 \nMax: 7",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nIn questo scenario, il protagonista si trova in una situazione di pericolo, ferito e con una certa quantit\u00e0 di sangue perso. Lo stato iniziale \u00e8 il seguente:\n- Il protagonista \u00e8 in una stanza chiusa con una porta.\n- Ha una ferita che continua a sanguinare.\n- Non ha oggetti con s\u00e9 che possano aiutarlo a sopravvivere.\n\nL'obiettivo finale / Goal \u00e8:\n- Riuscire a sopravvivere fermando l'emorragia e curando la ferita.\n\nI possibili ostacoli sono:\n- La porta \u00e8 chiusa e non pu\u00f2 essere aperta immediatamente.\n- Non ci sono oggetti nella stanza che possano aiutare a fermare l'emorragia.\n- La salute del protagonista continuer\u00e0 a diminuire se non si trover\u00e0 un rimedio.\n\n2. Context & Background:\nIl mondo in cui si svolge questa storia sembra essere un luogo chiuso e isolato, forse un dungeon o una struttura abbandonata. Il protagonista potrebbe essere stato messo l\u00ec intenzionalmente o ci sia finito per errore. Le ragioni della sua presenza e del suo stato ferito non sono immediatamente chiare, ma \u00e8 evidente che deve trovare un modo per sopravvivere.\n\n3. Branching Factor:\nMin: 2 \nMax: 4\n\nDato che il branching factor \u00e8 gi\u00e0 stato specificato dall'utente, non \u00e8 necessario dedurre nuovi valori. Questo significa che in ogni stato narrativo, il protagonista avr\u00e0 almeno 2 e al massimo 4 azioni disponibili per progredire.\n\n4. Depth Constraints:\nMin: 4 \nMax: 7\n\nAnche i depth constraints sono gi\u00e0 stati forniti dall'utente. Ci\u00f2 indica che il numero minimo di passi logici necessari per raggiungere l'obiettivo \u00e8 4, mentre il massimo \u00e8 7. Questo suggerisce che la storia avr\u00e0 un certo livello di complessit\u00e0, con il protagonista che dovr\u00e0 compiere una serie di azioni per sopravvivere.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 2,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia su un aereo in volo, dove si sta verificando un dirottamento da parte di criminali armati. Il protagonista si trova inizialmente nella cabina principale dell'aereo, seduto tra gli altri passeggeri. L'obiettivo finale \u00e8 raggiungere il bagno dell'aereo senza essere notato o eliminato dai dirottatori, riuscendo cos\u00ec a sopravvivere all'evento.\n\nLo stato iniziale include:\n- Il protagonista seduto nella cabina dell'aereo.\n- I criminali armati che stanno eseguendo il dirottamento, distribuiti nella cabina.\n- Il bagno, situato a una certa distanza, accessibile attraverso il corridoio centrale dell'aereo.\n\nI possibili ostacoli includono:\n- I criminali armati che pattugliano la cabina e potrebbero notare il protagonista mentre si dirige verso il bagno.\n- Le reazioni degli altri passeggeri, che potrebbero attirare l'attenzione dei criminali.\n\n2. Context & Background:\nL'aereo \u00e8 in volo, ma a causa del dirottamento, la situazione \u00e8 estremamente tesa. I criminali sono armati e sembra che abbiano il controllo della situazione. Il bagno \u00e8 piccolo e potrebbe offrire un temporaneo rifugio, ma non \u00e8 una soluzione definitiva.\n\n3. Branching Factor:\nMin: 2, Max: 4 (specificato dall'utente).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (specificato dall'utente). \n\nNota: Le azioni disponibili potrebbero includere muoversi verso il bagno, cercare di confondersi con gli altri passeggeri, cercare un oggetto da usare come difesa, ecc. Gli ostacoli e le azioni disponibili sono progettati per essere superabili tramite una sequenza logica di azioni, permettendo a un classical planner di trovare una soluzione.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura si svolge in un luogo pubblico affollato, come un centro commerciale, un parco o una stazione ferroviaria. Il protagonista ha urgente bisogno di utilizzare un bagno, ma la presenza di molte persone rende difficile trovare una soluzione senza attirare l'attenzione.\n\n- Stato iniziale: Il protagonista si trova in mezzo a una folla di persone in un luogo pubblico. Non ha accesso a un bagno privato e rischia di essere notato se cerca di allontanarsi o di chiedere informazioni.\n- Obiettivo finale / Goal: Trovare un bagno pubblico disponibile senza attirare l'attenzione della gente intorno.\n- Possibili ostacoli:\n  - La presenza di molte persone che potrebbero notare i movimenti del protagonista.\n  - La mancanza di informazioni sui bagni pubblici disponibili nelle vicinanze.\n  - La possibilit\u00e0 di essere indirizzato a bagni occupati o non accessibili.\n\n2. Context & Background:\nIl mondo in cui si svolge la storia \u00e8 un ambiente urbano moderno, con luoghi pubblici affollati e servizi come bagni pubblici disponibili, ma spesso difficili da trovare o occupati. Le persone si muovono rapidamente e sono concentrate sulle loro attivit\u00e0 quotidiane, prestando poca attenzione a ci\u00f2 che li circonda, ma potenzialmente notando comportamenti strani.\n\n3. Branching Factor:\nMin: 2, Max: 4. Questo significa che in ogni stato narrativo, il protagonista avr\u00e0 almeno 2 e al massimo 4 azioni disponibili per procedere. Queste azioni potrebbero includere muoversi in una direzione diversa, chiedere informazioni a qualcuno, cercare un cartello indicante i bagni, o entrare in un negozio per chiedere di usare il bagno.\n\n4. Depth Constraints:\nMin: 4, Max: 7. Questo indica che il protagonista avr\u00e0 bisogno di compiere almeno 4 azioni logiche e al massimo 7 per raggiungere l'obiettivo. Questo potrebbe includere azioni come orientarsi nella folla, individuare un potenziale bagno, verificare se \u00e8 occupato, e infine usarlo senza dare nell'occhio.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nLo stato iniziale \u00e8 rappresentato da Matteo Salvini che si trova in una regione rurale dell'Africa, circondato da abitanti ostili che desiderano eliminarlo. L'obiettivo finale \u00e8 raggiungere l'ambasciata italiana senza essere riconosciuto o visto, possibilmente travestito o camuffato.\n\nI possibili ostacoli includono:\n- Agenti ostili armati che pattugliano la zona.\n- Controlli di identit\u00e0 improvvisi da parte di gruppi armati.\n- Mancanza di risorse come denaro, documenti d'identit\u00e0 falsi o travestimenti adeguati.\n\n2. Context & Background:\nIl contesto \u00e8 ambientato in una regione rurale dell'Africa dove Matteo Salvini, leader di un partito politico italiano, si trova per motivi non specificati. La popolazione locale \u00e8 ostile nei suoi confronti a causa di precedenti dichiarazioni o azioni politiche percepite come offensive. L'ambasciata italiana rappresenta un luogo sicuro, ma \u00e8 distante e ben sorvegliata.\n\n3. Branching Factor:\nMin: 2, Max: 4 (specificato dall'utente).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (specificato dall'utente).\n\nNota: per rendere il tutto pi\u00f9 \"concreto\" e superabile tramite azioni logiche, Matteo Salvini potrebbe:\n- Procurarsi un travestimento (es. abiti locali, velo facciale).\n- Ottenere documenti d'identit\u00e0 falsi.\n- Trovare un mezzo di trasporto affidabile e non identificabile (es. un veicolo noleggiato con un nome falso).\n- Corrompere o convincere qualcuno a fornirgli aiuto.\n- Utilizzare luoghi pubblici o servizi (es. un mercato, un hotel) per raccogliere informazioni o risorse.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nLo stato iniziale \u00e8 rappresentato da Matteo Salvini che si trova in una regione rurale dell'Africa, circondato da abitanti ostili che desiderano eliminarlo. L'obiettivo finale \u00e8 raggiungere l'ambasciata italiana senza essere riconosciuto o visto, preferibilmente camuffato o travestito. I possibili ostacoli includono:\n- Agenti ostili armati che pattugliano la zona.\n- Controlli di identit\u00e0 improvvisi da parte di gruppi armati o forze di sicurezza locali.\n- Mancanza di risorse come denaro, cibo e acqua per sostenersi durante il viaggio.\n- Terreno difficile e pericoloso, come savane, deserti o giungle, che rendono complicata la navigazione.\n\n2. Context & Background:\nIl contesto \u00e8 ambientato in una regione dell'Africa dove la presenza di Matteo Salvini \u00e8 estremamente indesiderata dagli abitanti locali e dalle forze di sicurezza. L'ambasciata italiana si trova in una capitale o in una citt\u00e0 importante, ben protetta e monitorata. La regione \u00e8 caratterizzata da un'elevata ostilit\u00e0 verso Salvini, con continue minacce e tentativi di eliminarlo.\n\n3. Branching Factor:\nMin: 2, Max: 4. Questo range \u00e8 coerente con le informazioni fornite, poich\u00e9 Matteo Salvini potrebbe decidere di:\n- Proseguire il viaggio attraverso sentieri o strade principali.\n- Cercare aiuto presso villaggi o gruppi etnici locali (anche se potenzialmente ostili).\n- Utilizzare risorse limitate per acquistare o procurarsi cibo, acqua e potenziali travestimenti.\n\n4. Depth Constraints:\nMin: 4, Max: 7. Questo range tiene conto della complessit\u00e0 del viaggio, degli ostacoli da superare e della necessit\u00e0 di Matteo Salvini di trovare soluzioni creative per eludere i pericoli. Ad esempio:\n- Trovare un travestimento adeguato.\n- Procurarsi risorse essenziali.\n- Superare controlli di identit\u00e0.\n- Raggiungere infine l'ambasciata italiana senza essere riconosciuto.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nLo stato iniziale \u00e8 rappresentato da Matteo Salvini che si trova in una regione rurale dell'Africa, circondato da abitanti ostili che desiderano eliminarlo. L'obiettivo finale \u00e8 raggiungere l'ambasciata italiana senza essere riconosciuto o visto, possibilmente camuffato o dissimulato.\n\nI possibili ostacoli includono:\n- Agenti ostili armati che pattugliano la zona.\n- Controlli di identit\u00e0 improvvisi da parte di gruppi armati o forze dell'ordine locali.\n- Mancanza di risorse come cibo, acqua e un mezzo di trasporto sicuro.\n- Terreno difficile e pericoloso, come savane, deserti o giungle.\n\n2. Context & Background:\nIl contesto \u00e8 ambientato in una regione dell'Africa dove Matteo Salvini, una figura politica italiana, \u00e8 ricercato dagli abitanti locali ostili. L'ambasciata italiana rappresenta un rifugio sicuro, ma \u00e8 anche un luogo che potrebbe essere sorvegliato. La zona \u00e8 caratterizzata da un clima caldo e arido, con poche infrastrutture e servizi.\n\n3. Branching Factor:\nMin: 2 \nMax: 4 \n\n4. Depth Constraints:\nMin: 4 \nMax: 7 \n\nNota: Ho mantenuto i valori di \"branching_factor\" e \"depth_constraint\" forniti, in quanto gi\u00e0 presenti nell'input.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia con Matteo Salvini, leader di una formazione politica italiana, che si trova in Africa in una regione particolarmente ostile. Gli abitanti del luogo hanno una forte avversione nei suoi confronti, e numerosi gruppi di persone, armati e determinati, sono pronti a eliminarlo. L'obiettivo finale \u00e8 raggiungere vivo l'ambasciata italiana, possibilmente senza essere visto o riconosciuto.\n\nLo stato iniziale include:\n- Matteo Salvini, disarmato e vestito con abbigliamento casual, si trova in una piazza centrale di un piccolo villaggio africano.\n- La piazza \u00e8 circondata da edifici alti e stretti, con vari vicoli e angoli bui.\n- Gli abitanti del villaggio sono diffusi nella piazza e nelle strade adiacenti, alcuni di loro armati di machete o fucili.\n\nL'obiettivo finale / Goal:\n- Arrivare all'ambasciata italiana senza essere ucciso o riconosciuto.\n\nI possibili ostacoli:\n- Gli abitanti del villaggio ostili che cercano di ucciderlo.\n- La presenza di gruppi armati organizzati che pattugliano le strade.\n- La necessit\u00e0 di trovare un travestimento o un modo per non essere riconosciuto.\n\n2. Context & Background:\nIl contesto \u00e8 quello di un piccolo villaggio africano con scarse infrastrutture e un clima di tensione politica. L'alleanza tra il leader politico Matteo Salvini e il villaggio \u00e8 estremamente tesa, e Salvini \u00e8 considerato un nemico da molti abitanti. L'ambasciata italiana si trova in una zona pi\u00f9 sicura e moderna della citt\u00e0, lontana dal villaggio.\n\n3. Branching Factor:\nMin: 2, Max: 4 (come specificato dall'utente).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (come specificato dall'utente).",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nLo stato iniziale \u00e8 rappresentato da Matteo Salvini che si trova in una zona rurale dell'Africa, circondato da abitanti ostili che desiderano eliminarlo. L'obiettivo finale \u00e8 raggiungere l'ambasciata italiana senza essere riconosciuto o visto, possibilmente camuffato o dissimulato.\n\nI possibili ostacoli includono:\n- Agenti ostili armati che pattugliano la zona.\n- Controlli di identit\u00e0 improvvisi da parte di gruppi armati.\n- Mancanza di risorse come cibo, acqua e un mezzo di trasporto sicuro.\n- Terreno difficile e pericoloso, come savane o deserti.\n\n2. Context & Background:\nIl contesto \u00e8 ambientato in una regione instabile dell'Africa, dove gruppi estremisti e popolazione locale ostile hanno creato un clima di tensione e pericolo per gli stranieri, specialmente per figure politiche come Matteo Salvini. L'ambasciata italiana rappresenta un rifugio sicuro, ma \u00e8 anche un luogo sorvegliato e potrebbe essere difficile da raggiungere senza attirare l'attenzione.\n\n3. Branching Factor:\nMin: 2 \nMax: 4 \n\n4. Depth Constraints:\nMin: 4 \nMax: 7",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia con il protagonista che si trova a casa sua, senza soldi e con il desiderio di comprare una bici. L'obiettivo finale \u00e8 comprare una bici. Gli ostacoli che impediscono il raggiungimento immediato dell'obiettivo sono:\n- Mancanza di soldi.\n- Possibilit\u00e0 di dover lavorare per guadagnare soldi.\n- Possibilit\u00e0 di dover cercare sconti o offerte speciali sulla bici.\n\nLo stato iniziale include:\n- Protagonista a casa.\n- Protagonista senza soldi.\n- Bici disponibile in un negozio vicino.\n\n2. Context & Background:\nIl mondo in cui si svolge la storia \u00e8 una citt\u00e0 con vari negozi, tra cui un negozio di biciclette. Il protagonista \u00e8 una persona che ha bisogno di una bici per spostarsi. La citt\u00e0 ha un'economia basata sul denaro e le persone possono lavorare per guadagnare soldi.\n\n3. Branching Factor:\nMin: 2, Max: 4 (specificato dall'utente).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (specificato dall'utente).",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura inizia con Ben10 che si trova ai margini di un bosco fitto e pericoloso, popolato da vari nemici. Ben10 \u00e8 in possesso dell'Omnitrix, un dispositivo che gli permette di trasformarsi in diversi alieni con abilit\u00e0 uniche. L'obiettivo finale \u00e8 attraversare il bosco e raggiungere l'uscita sana e salvo.\n\nLo stato iniziale include:\n- Ben10 disarmato e senza trasformazioni aliene.\n- L'Omnitrix sul polso di Ben10.\n- Nemici vari sparsi nel bosco, come ad esempio: \n  - Robot armati.\n  - Alieni ostili con abilit\u00e0 particolari (es. volo, forza superumana).\n  - Trappole naturali (es. fiumi di lava, voragini).\n\nL'obiettivo finale / Goal:\n- Ben10 deve uscire dal bosco senza essere sconfitto.\n\nI possibili ostacoli:\n- Nemici che attaccano Ben10.\n- Terreno difficile da attraversare (paludi, fiumi, dirupi).\n- Enigmi ambientali (es. trovare la chiave per una porta chiusa, attivare un ponte).\n\n2. Context & Background:\nIl bosco in questione \u00e8 noto come \"Il Bosco degli incubi\", un luogo temuto da molti a causa delle sue condizioni ostili e della presenza di numerose minacce. Ben10, grazie alla sua esperienza e all'Omnitrix, ha deciso di affrontarlo per dimostrare le sue abilit\u00e0.\n\nL'Omnitrix contiene diversi alieni, ognuno con poteri unici:\n- Four Arms (grande forza).\n- Heatblast (controlla il fuoco).\n- XLR8 (velocit\u00e0 estrema).\n- Diamondhead (corazza di diamante).\n\n3. Branching Factor:\nMin: 2, Max: 4 (specificato dall'utente).\n\n4. Depth Constraints:\nMin: 4, Max: 7 (specificato dall'utente).",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 1,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura si svolge all'interno del palazzo reale, dove il protagonista, un ladro esperto, deve rubare il gioiello della corona senza essere scoperto. \nLo stato iniziale vede il ladro posizionarsi in una zona d'ombra del palazzo, possibilmente nei pressi dell'ingresso o di un corridoio poco sorvegliato. \nIl ladro \u00e8 a conoscenza della presenza di guardie che pattugliano il palazzo e di trappole nascoste lungo i corridoi e nelle stanze.\nL'obiettivo finale \u00e8 raggiungere la teca o la stanza dove \u00e8 custodito il gioiello della corona e rubarlo senza attivare le trappole o essere visto dalle guardie.\nGli ostacoli principali includono:\n- Le guardie che pattugliano il palazzo con orari e percorsi specifici.\n- Le trappole nascoste che possono essere attivate dal rumore o dal movimento.\n- La possibile presenza di servitori o altri personaggi all'interno del palazzo che potrebbero aumentare la sorveglianza.\n\n2. Context & Background:\nIl palazzo reale \u00e8 un edificio storico con molti corridoi, stanze e passaggi segreti. La sorveglianza \u00e8 affidata a un gruppo di guardie ben addestrate che seguono un percorso di ronda prestabilito. \nIl gioiello della corona \u00e8 custodito nella sala del trono o in una teca speciale all'interno del palazzo, protetto da trappole magiche o meccaniche. \nIl ladro ha informazioni preliminari sul palazzo, ottenute tramite una rete di spie o informatori, che includono la dislocazione delle guardie, la presenza di trappole e possibili punti deboli nella sorveglianza.\n\n3. Branching Factor:\nMin: 2 \nMax: 4 \n\n4. Depth Constraints:\nMin: 4 \nMax: 11",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                11
+            ]
+        },
+        "syntax_errors": 1,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura vede il protagonista, un Mago in cerca di potere, tentare l'incursione nella \"Torre dell'Eclissi\" per recuperare il \"Cuore di Aether\", un artefatto necessario per stabilizzare la magia nel regno.\n\n- Stato Iniziale: Il Mago si trova nel \"Cortile Esterno\" della torre. Possiede lo \"Staffo di Quercia\" e una \"Pozione di Mana\". Il \"Cancello di Ferro\" \u00e8 chiuso. L' \"Orb di Luce\" \u00e8 assente. Il \"Serbatoio di Mana\" \u00e8 allo stato [Vuoto].\n- Obiettivo Finale (Goal): Il Mago si trova nel \"Santuario Superiore\" e possiede l'oggetto \"Cuore di Aether\".\n- Ostacoli: \n    - Il \"Cancello di Ferro\" richiede la \"Chiave d'Argento\" per essere aperto.\n    - Il \"Guardiano d'Ombra\" blocca il passaggio al secondo piano e pu\u00f2 essere sconfitto solo se il Mago possiede l' \"Orb di Luce\".\n    - La \"Barriera Arcanica\" nel Santuario richiede che il \"Serbatoio di Mana\" sia allo stato [Pieno] per essere dissipata.\n\n2. Context & Background:\nIl mondo di Aethelgard sta subendo una frammentazione magica nota come \"Il Grande Vuoto\". Le correnti arcane si stanno esaurendo, rendendo i maghi vulnerabili e le citt\u00e0 instabili. La Torre dell'Eclissi, un tempo centro di studi per gli arcani, \u00e8 stata corrotta da energie oscure. Il Cuore di Aether, l'unico artefatto in grado di ricanalizzare il flusso magico, \u00e8 rimasto intrappolato nel punto pi\u00f9 alto della torre, protetto da antichi meccanismi e sentinelle d'ombra.\n\n3. Branching Factor:\nMin: 2, Max: 4\n\n4. Depth Constraints:\nMin: 4, Max: 7",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura vede il protagonista (un Cammello) impegnato in una missione di trasporto diplomatico attraverso il Deserto di Aethelgard.\n- **Stato Iniziale**: Il Cammello si trova presso l'Oasi di Zephyr. \u00c8 equipaggiato con una `Sella_Diplomatica` che contiene il `Sigillo_Dorato`. Lo stato di `Idratazione` \u00e8 `Alta` e lo stato di `Energia` \u00e8 `Pieno`.\n- **Obiettivo Finale (Goal)**: Raggiungere la Cittadella di Sabbia con il `Sigillo_Dorato` integro, mantenendo lo stato di `Idratazione` superiore a `Critica`.\n- **Ostacoli**:\n    - **Dune Brucianti**: Un tratto di territorio che causa il decremento dello stato di `Idratazione` ad ogni azione di movimento. Richiede l'oggetto `Scorta_Acqua` per mitigare l'effetto.\n    - **Tempesta di Sabbia**: Un evento meteorologico che blocca il passaggio nelle vie standard. Richiede l'uso dell'oggetto `Mappa_Stellare` per navigare verso un punto di sosta sicuro.\n    - **Predatori del Deserto (Lupi di Sabbia)**: Creature che impediscono il movimento in determinati nodi della mappa. Possono essere evitati solo possedendo l'oggetto `Incenso_Distrazione` o percorrendo il `Sentiero_Roccioso`.\n    - **Passo Bloccato**: Una barriera fisica che richiede l'oggetto `Chiave_di_Bronzo` (trovabile in un punto di interesse secondario) per permettere il passaggio verso la Cittadella.\n\n2. Context & Background:\nNel mondo di Aethelgard, le comunicazioni tra le citt\u00e0-stato delle oasi sono interrotte da guerre intestine e tempeste costanti. Gli unici esseri capaci di attraversare le distese senza soccombere sono i \"Cammelli Sentinella\", creature addestrate e sacre, dotate di una resistenza biologica superiore. Il giocatore incarna uno di questi animali, incaricato di consegnare il `Sigillo_Dorato`, l'unico oggetto capace di ratificare il Trattato di Pace tra i regni del Nord e del Sud.\n\n3. Branching Factor:\nMin: 2, Max: 4.\n\n4. Depth Constraints:\nMin: 4, Max: 7.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 1,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\n- Stato Iniziale: Il protagonista si trova di fronte a tre pilastri monolitici etichettati come Alpha, Beta e Gamma. Il pilastro Alpha sostiene una pila di tre \"Rune dell'Ordine\" di dimensioni decrescenti (la pi\u00f9 grande alla base, la pi\u00f9 piccola in cima). I pilastri Beta e Gamma sono attualmente vuoti.\n- Obiettivo Finale / Goal: L'intera pila di tre Rune dell'Ordine deve essere traslata sul pilastro Gamma, mantenendo la sequenza dimensionale originale (la pi\u00f9 grande in fondo, la pi\u00f9 piccola in cima).\n- Ostacoli:\n    - Legge della Magnitudo: Una Runa non pu\u00f2 essere posizionata sopra una Runa di dimensioni inferiori. Pu\u00f2 essere posizionata solo su un pilastro vuoto o su una Runa pi\u00f9 grande.\n    - Legge dell'Accessibilit\u00e0: \u00c8 possibile spostare solo la Runa che occupa la posizione pi\u00f9 alta (top) su un determinato pilastro.\n    - Legge della Singolarit\u00e0: \u00c8 consentita la movimentazione di una sola Runa per ogni singola azione intrapresa.\n\n2. Context & Background:\nLa prova si svolge nel \"Santuario dell'Equilibrio\", una camera rituale situata nelle profondit\u00e0 di un tempio dedicato all'Ordine Logico. Le Rune dell'Ordine non sono semplici oggetti, ma manifestazioni fisiche delle leggi della causalit\u00e0. Per gli iniziati, risolvere la sequenza dei pilastri non \u00e8 un semplice esercizio matematico, ma un atto di allineamento con la struttura stessa del cosmo. Un errore nella sequenza di spostamento causerebbe un collasso dell'equilibrio magico della stanza, impedendo l'accesso ai livelli superiori della conoscenza.\n\n3. Branching Factor:\nMin: 2, Max: 4\n\n4. Depth Constraints:\nMin: 4, Max: 7",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\n- Stato Iniziale: Il protagonista si trova davanti al Triade di Pietra, composto da tre pilastri magici (Pilastro Alfa, Pilastro Beta, Pilastro Gamma). Sul Pilastro Alfa sono impilati tre Dischi Astrali di dimensioni decrescenti: Disco-Grande, Disco-Medio e Disco-Piccolo (dal basso verso l'alto). I Pilastri Beta e Gamma sono attualmente vuoti.\n- Obiettivo Finale / Goal: Tutti e tre i Dischi Astrali devono essere trasferiti sul Pilastro Gamma, mantenendo l'ordine gerarchico (Disco-Grande alla base, seguito da Disco-Medio, con Disco-Piccolo in cima), ripristinando l'Equilibrio Geometrico.\n- Ostacoli: \n    - La Legge della Massa: \u00c8 fisicamente impossibile posizionare un disco su uno di dimensioni inferiori (vincolo logico di stato).\n    - L'Erosione del Vuoto: Ogni movimento di un disco consuma un'unit\u00e0 di \"Stabilit\u00e0 Dimensionale\". Se la stabilit\u00e0 si esaurisce prima del completamento della sequenza, i dischi cadono nel vuoto e l'obiettivo fallisce.\n    - Il Guardiano del Caos: Un'entit\u00e0 che blocca il Pilastro Beta se non viene attivato tramite una sequenza specifica di spostamenti, rendendolo temporaneamente inutilizzabile.\n\n2. Context & Background:\nNel regno di *Fractal-Zero*, la realt\u00e0 non \u00e8 fatta di materia, ma di pura logica matematica. Tuttavia, una piaga nota come \"La Grande Derivazione\" sta corrompendo le costanti universali, trasformando l'ordine in caos entropico (le \"Torri Folli\"). I pilastri descritti sono i \"Nodi di Calcolo\" che sostengono la struttura stessa del tempo e dello spazio. Solo un Geometrico, capace di manipolare questi oggetti seguendo le leggi della sequenza perfetta, pu\u00f2 prevenire il collasso definitivo della dimensione in un ammasso di paradossi non risolvibili.\n\n3. Branching Factor:\nMin: 2, Max: 4.\n\n4. Depth Constraints:\nMin: 4, Max: 7.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 1,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\n- **Stato iniziale**: Il Grande Puffo si trova ai margini della Foresta Proibita. Possiede un \"Siero di Invisibilit\u00e0\". I Puffi sono nello stato \"Catturati\" e localizzati all'interno della \"cella del Dungeon\" nel Castello di Gargamella. Il Cancello del Castello \u00e8 nello stato \"Chiuso\". Azrael \u00e8 nello stato \"Guardiano\" e si trova nel cortile del castello.\n- **Goal**: Tutti i Puffi devono essere nello stato \"Liberi\" e localizzati nel \"Villaggio dei Puffi\".\n- **Ostacoli**: Il Cancello del Castello (richiede l'oggetto \"Chiave d'Argento\"), Azrael (ostacolo che blocca il passaggio nel cortile), la Cella del Dungeon (richiede l'uso del \"Siero di Invisibilit\u00e0\" o il possesso della \"Chiave del Dungeon\").\n\n2. Context & Background:\nGargamella, un malvagio stregone, ha orchestrato un'imboscata per catturare i Puffi e utilizzare la loro essenza magica per i suoi esperimenti. I Puffi sono attualmente rinchiusi nelle profondit\u00e0 del suo castello fortificato. Il Grande Puffo, l'unica figura capace di contrastare la magia oscura di Gargamella, deve infiltrarsi nelle strutture del nemico, eludere le guardie (incluso il gatto Azrael) e recuperare i suoi seguaci per riportarli alla sicurezza del Villaggio dei Puffi.\n\n3. Branching Factor:\nMin: 2, Max: 4.\n\n4. Depth Constraints:\nMin: 4, Max: 7.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\n- Stato Iniziale: Il Grande Puffo si trova nel Villaggio dei Puffi, che risulta attualmente deserto. Tutti i Puffi sono nello stato `catturati` e si trovano nella posizione `Prigione di Gargarismo`. Il Grande Puffo non possiede oggetti nell'inventario. Gargarismo si trova nella sua `Fortezza Magica`.\n- Obiettivo Finale (Goal): Tutti i Puffi devono trovarsi nello stato `liberi` e nella posizione `Villaggio dei Puffi`, e lo stato di Gargarismo deve essere `neutralizzato`.\n- Ostacoli: \n    1. La \"Porta d'Ombra\" che sbarra l'accesso alla Fortezza (richiede l'oggetto `Chiave di Luce`).\n    2. La \"Nube di Confusione\" di Gargarismo che impedisce l'avanzamento (richiede l'oggetto `Pozione della Chiarezza`).\n    3. La guardia di Gargarismo (un costrutto magico) che blocca il passaggio verso le celle.\n\n2. Context & Background:\nGargarismo \u00e8 il gemello instabile e caotico di Gargamella. A differenza del fratello, che cerca i Puffi per scopi culinari o di trasformazione, Gargarismo desidera utilizzare l'essenza vitale dei Puffi per alimentare un rituale di pura entropia magica. Ha rapito l'intera popolazione del villaggio e li ha rinchiusi nella sua Fortezza Magica, protetta da incantesimi che solo un esperto come il Grande Puffo pu\u00f2 contrastare attraverso l'uso di ingredienti rari e oggetti magici.\n\n3. Branching Factor:\nMin: 2, Max: 4\n\n4. Depth Constraints:\nMin: 4, Max: 7",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\n- Stato Iniziale: Batman si trova all'ingresso esterno di un parco divertimenti abbandonato. L'ostaggio \u00e8 rinchiuso in una gabbia elettrificata all'interno della \"Sala degli Specchi\". Il Joker si trova nella \"Sala di Controllo\", monitorando l'area tramite telecamere. Una \"Chiave Magnetica\" \u00e8 in possesso di una sentinella presso il \"Posto di Guardia\".\n- Obiettivo Finale / Goal: L'ostaggio deve essere trasportato fuori dal parco divertimenti (posizione: Ingresso Esterno) e Batman deve essere presente.\n- Ostacoli: \n    1. Cancello di Accesso: Chiuso, richiede la \"Chiave Magnetica\" per essere aperto.\n    2. Sentinella: Impedisce l'accesso alla \"Chiave Magnetica\" a meno che non venga neutralizzata.\n    3. Sistemi di Sorveglianza: Se Batman non disattiva i terminali nella \"Sala di Controllo\" o non usa una \"Bomba Fumogena\", il Joker attiver\u00e0 l'allarme, bloccando l'uscita.\n    4. Gabbia Elettrificata: Richiede che l'energia sia disattivata dalla \"Sala di Controllo\" per poter essere aperta senza ferire l'ostaggio.\n\n2. Context & Background:\nL'azione si svolge a Gotham City, all'interno del \"Luna Park dell'Orrore\", un vecchio parco a tema trasformato dal Joker in una trappola mortale. L'atmosfera \u00e8 cupa e claustrofobica. Batman deve utilizzare il suo arsenale e le sue doti di investigatore per muoversi furtivamente tra le attrazioni decadenti, evitando lo scontro frontale finch\u00e9 l'ostaggio non \u00e8 in sicurezza, poich\u00e9 il Joker ha minacciato di attivare un meccanismo di autodistruzione se dovesse percepire un attacco diretto.\n\n3. Branching Factor:\nMin: 2, Max: 4\n\n4. Depth Constraints:\nMin: 4, Max: 7",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 1,
+        "logic_errors": 0,
+        "critical_errors": 1
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura si svolge in un contesto di emergenza urbana.\n- **Stato Iniziale:** Superman si trova presso il Daily Planet. Kalvin Klein \u00e8 in uno stato di `is_captured(Kalvin_Klein)` presso il \"Joker's Lair\". Joker si trova nel \"Joker's Lair\" e possiede l'oggetto `Kryptonite_Shard`. Superman ha lo stato `is_healthy(Superman)`.\n- **Goal:** Raggiungere la condizione `is_safe(Kalvin_Klein)` (Kalvin Klein \u00e8 fuori dal Joker's Lair e in uno stato di libert\u00e0) e `is_neutralized(Joker)` (Joker non \u00e8 pi\u00f9 in grado di minacciare la citt\u00e0).\n- **Ostacoli:** \n    - `Kryptonite_Shard`: Se Superman entra nel raggio d'azione dell'oggetto, il suo stato cambia in `is_weakened(Superman)`, impedendo l'uso di poteri di volo o forza sovrumana.\n    - `Henchmen`: Guardie armate che bloccano l'accesso ai corridoi del Joker's Lair.\n    - `Locked_Cell`: Una cella rinforzata che richiede un oggetto specifico o una condizione di forza per essere aperta.\n\n2. Context & Background:\nLa citt\u00e0 di Metropolis \u00e8 nel caos dopo che il Joker ha orchestrato un rapimento mirato. Il Joker non cerca solo il caos, ma la distruzione del simbolo di speranza della citt\u00e0: Superman. Per farlo, ha ottenuto un frammento di Kryptonite verde, l'unica sostanza capace di privare l'eroo dei suoi poteri. Il rapimento di Kalvin Klein \u00e8 la trappola perfetta per attirare Superman in un ambiente dove la sua invulnerabilit\u00e0 \u00e8 nulla.\n\n3. Branching Factor:\n- Min: 2\n- Max: 4\n\n4. Depth Constraints:\n- Min: 4\n- Max: 7",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 1,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura si svolge all'interno del Perimetro Fungino. \n\n- **Stato Iniziale**: Il Mago si trova all'ingresso della foresta con un 'Bastone di Quercia' (contiene 3 cariche di mana) e un 'Grimorio Logoro'. Il sentiero verso l'uscita \u00e8 bloccato da tre elementi: una 'Nube di Spore Tossiche', un 'Sentinella Miceliale' (un organismo protettore) e la 'Grande Porta di Cordyceps' (una barriera vegetale).\n- **Obiettivo Finale / Goal**: Raggiungere la 'Radura Soleggiata' (Stato: `mage_at_clearing = True`).\n- **Ostacoli**:\n    1. **Nube di Spore Tossiche**: Impedisce il passaggio a meno che il Mago non utilizzi un 'Incantesimo di Vento' o indossi una 'Maschera Filtrante'.\n    2. **Sentinella Miceliale**: Un nemico fisico che blocca il passaggio. Deve essere neutralizzato tramite un 'Incantesimo di Fuoco' o bypassato utilizzando una 'Pozione di Invisibilit\u00e0'.\n    3. **Grande Porta di Cordyceps**: Una barriera organica impenetrabile che richiede l'applicazione di un 'Elisir Acido' per essere dissolta.\n\n2. Context & Background:\nLa Foresta dei Funghi Assassini \u00e8 un ecosistema senziente nato da un antico esperimento magico fallito. Il micelio si \u00e8 evoluto per percepire e consumare l'energia magica degli esseri viventi. L'aria \u00e8 satura di spore parassitarie che cercano di colonizzare l'ospite. Per sopravvivere, un mago deve gestire meticolosamente le proprie risorse di mana e gli oggetti alchemici, poich\u00e9 ogni incantesimo consuma la riserva vitale necessaria per contrastare le minacce biologiche della foresta.\n\n3. Branching Factor:\nMin: 2, Max: 4.\n\n4. Depth Constraints:\nMin: 4, Max: 7.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\n- **Stato Iniziale**: Batman si trova all'ingresso della \"Funhouse\" (Location: Entrance). L'ostaggio \u00e8 prigioniero all'interno della \"Gabbia Elettrica\" (Location: Central_Core) con lo stato `is_trapped`. Il Joker si trova nella \"Sala di Controllo\" (Location: Control_Room) con lo stato `is_armed` e possiede il \"Telecomando Detonatore\". La \"Chiave Magnetica\" \u00e8 situata nell'ufficio della \"Security Room\". Un gruppo di \"Sgherri\" pattuglia il \"Corridoio Centrale\".\n- **Goal (Obiettivo Finale)**: Il raggiungimento della vittoria avviene quando si verificano simultaneamente le condizioni `is_free(Hostage)` (l'ostaggio \u00e8 fuori dalla gabbia) e `is_captured(Joker)` (il Joker \u00e8 stato disarmato e ammanettato).\n- **Ostacoli**: \n    1. **Cancello di Sicurezza**: Impedisce l'accesso alla zona centrale; richiede l'oggetto `Chiave Magnetica`.\n    2. **Sgherri**: Impediscono il movimento nel corridoio; richiedono l'azione `Combat` o `Stealth`.\n    3. **Gabbia Elettrica**: Tiene l'ostaggio prigioniero; richiede l'azione `Cut_Power` (che richiede di raggiungere il Pannello Elettrico).\n    4. **Detonatore del Joker**: Impedisce la cattura del Joker; richiede l'azione `Disarm_Joker`.\n\n2. Context & Background:\nIn una Gotham City distorta e surreale, il Joker ha manifestato una psicosi legata a una linea di sangue bizzarra e imprevedibile, dichiarandosi fratello del celebre CiccioGamer89. Questa connessione, pur priva di senso logico per la citt\u00e0, conferisce al Joker un comportamento erratico e una motivazione basata sul caos mediatico. Ha occupato un vecchio parco divertimenti per mettere in scena un ultimatum finale, utilizzando un ostaggio per costringere Batman a un confronto che unisca la violenza fisica alla follia della cultura pop.\n\n3. Branching Factor:\n- Min: 2\n- Max: 4\n\n4. Depth Constraints:\n- Min: 4\n- Max: 7",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura si svolge durante una notte piovosa a Gotham City. Batman deve neutralizzare Marco Merrino, un boss della malavita tecnologica che si \u00e8 barricato nel suo attico fortificato presso la Merrino Tower.\n\n- Stato Iniziale: Batman si trova sul tetto adiacente alla Merrino Tower. Dispone del Bat-Grappling Hook e di Smoke Pellets. Marco Merrino si trova all'interno della suite principale, protetto da un sistema di sicurezza biometrico e da due guardie armate posizionate nel corridoio d'accesso. La porta dell'attico \u00e8 chiusa e richiede un codice di accesso o un'impronta digitale per essere aperta.\n- Obiolo Finale / Goal: La condizione di vittoria \u00e8 raggiunta quando lo stato `is_captured(Marco_Merrino)` \u00e8 vero e `is_neutralized(Merrino_Security_System)` \u00e8 vero.\n- Ostacoli: \n    1. Le due guardie nel corridoio che bloccano il passaggio (richiedono stealth o combattimento).\n    2. Il sistema di sicurezza biometrico della porta dell'attico (richiede l'acquisizione di un'impronta digitale o un bypass elettronico).\n    3. La sorveglianza dei droni della Merrino Tower che monitorano i movimenti sui tetti.\n\n2. Context & Background:\nMarco Merrino ha accumulato un potere immenso attraverso il traffico di prototipi militari rubati. La sua torre non \u00e8 solo una residenza, ma un nodo centrale per una rete di criminalit\u00e0 informatica. Per fermarlo, non basta un semplice arresto; \u00e8 necessario penetrare nel suo santuario tecnologico per impedire che attivi il protocollo di cancellazione dei dati che distruggerebbe le prove della sua attivit\u00e0. Batman deve agire con precisione per evitare che l'allarme generale attiri rinforzi massicci.\n\n3. Branching Factor:\nMin: 2, Max: 4\n\n4. Depth Constraints:\nMin: 4, Max: 7",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'avventura segue le vicende di un attaccante di estrazione popolare (il \"Boro\") che cerca di ottenere legittimazione sociale presso l'\u00e9lite locale (le \"Parioline\") attraverso una prestazione calcistica d'eccellenza.\n\n- Stato Iniziale: Il protagonista si trova nello spogliatoio della squadra. Indossa un abbigliamento trasandato (`outfit_shabby`) che determina uno stato di `social_status = low`. Non possiede attrezzatura tecnica avanzata (`has_professional_gear = false`). Il contatore dei gol \u00e8 a zero (`goals_scored = 0`). L'opinione delle Parioline \u00e8 `status_parioline = unimpressed`.\n- Obiettivo Finale / Goal: Il raggiungimento della condizione di vittoria \u00e8 dato dal soddisfacimento simultaneo di due stati: `goals_scored >= 2` E `status_parioline = impressed`.\n- Ostacoli: \n    - Barriera Sociale: L'abbigliamento inadeguato impedisce l'attivazione dello stato `impressed` anche in caso di vittoria.\n    - Barriera Tecnica: La mancanza di attrezzatura professionale (`professional_boots`) rende la probabilit\u00e0 di successo dell'azione `score_goal` estremamente bassa o impossibile senza un potenziamento delle statistiche.\n    - Barriera Competitiva: La presenza di un portiere avversario (`opponent_goalkeeper`) che funge da blocco logico all'azione `score_goal` finch\u00e9 non vengono soddisfatti i prerequisiti di abilit\u00e0 o equipaggiamento.\n\n2. Context & Background:\nLa narrazione si svolge in un contesto di forte contrasto sociale tra la periferia romana e il quartiere Parioli. Il protagonista deve navigare la tensione tra la sua identit\u00e0 di \"Boro\" e l'estetica curata richiesta per ottenere il rispetto dell'\u00e9lite. Il campo di calcio non \u00e8 solo un luogo di sport, ma un teatro di ascesa sociale dove la competenza atletica deve essere accompagnata da un'appropriata presentazione estetica (il \"look\") per trasformare l'ammirazione sportiva in accettazione sociale.\n\n3. Branching Factor:\n- Min: 2\n- Max: 4\n\n4. Depth Constraints:\n- Min: 4\n- Max: 7",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\n- **Stato Iniziale**: Il giocatore si trova al centro del campo da calcio. Il punteggio della partita \u00e8 0-0. Il giocatore possiede lo stato `Stamina: High` e `Ball_Possession: False`. La ragazza si trova nello stato `Observer: Spectating` con `Impression_Level: 0`. La palla \u00e8 in gioco ma non \u00e8 sotto il controllo del giocatore.\n- **Goal (Condizione di Vittoria)**: Il raggiungimento dello stato `Match_Result: Won` con un contatore `Goals_Scored >= 3` e lo stato finale `Girl_Affection: High` (attivato automaticamente quando `Goals_Scored` raggiunge la soglia critica).\n- **Ostacoli**: \n    - **Difensori Avversari**: Entit\u00e0 che bloccano lo stato `Path_Clear` e possono sottrarre `Ball_Possession`.\n    - **Stamina Depletion**: Ogni azione intensa (Sprint, Tiro, Dribbling) riduce il valore numerico di `Stamina`. Se `Stamina == 0`, il giocatore non pu\u00f2 eseguire azioni offensive.\n    - **Portiere Avversario**: Un blocco logico che richiede che lo stato `Shot_Precision` sia superiore a un valore soglia per trasformare l'azione `Shoot` in `Goal_Scored`.\n    - **Posizionamento**: Il giocatore deve prima raggiungere lo stato `In_Attacking_Zone` prima di poter tentare l'azione di tiro.\n\n2. Context & Background:\nLa storia si svolge durante la finale del torneo cittadino di calcio. Il protagonista, un attaccante di talento ma emotivamente vulnerabile, ha una motivazione extra-sportiva: la presenza tra il pubblico della sua crush. L'ambiente \u00e8 caratterizzato dalla pressione del pubblico e dalla tensione agonistica. Il successo non \u00e8 misurato solo dalla vittoria della squadra, ma dalla capacit\u00e0 del giocatore di eseguire manovre spettacolari che alimentino il livello di impressione della ragazza.\n\n3. Branching Factor:\n- Min: 2\n- Max: 4\n\n4. Depth Constraints:\n- Min: 4\n- Max: 7",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 1,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\n- **Initial State**: Spider-Man is positioned on a rooftop in Midtown. The Mayor is held captive at the City Hall balcony. Green Goblin is mounted on his Glider, currently in flight, and is holding a primed Pumpkin Bomb. The City Hall entrance is in a \"Lockdown\" state, preventing direct entry.\n- **Goal**: (Mayor is in a \"Secure-Zone\") AND (Green Goblin is in a \"Restrained-State\").\n- **Obstacles**: \n    - **The Glider**: Permette a Green Goblin di evitare il contatto fisico e di fuggire (stato: `is-flying`).\n    - **The Pumpkin Bomb**: Crea un'area di pericolo che impedisce l'avvicinamento al Sindaco (stato: `is-armed`).\n    - **City Hall Lockdown**: Impedisce l'accesso all'area del Sindaco tramite i percorsi standard (stato: `is-locked`).\n\n2. Context & Background:\nDopo anni di assenza, Norman Osborn ha ripreso il controllo della sua identit\u00e0 di Green Goblin, utilizzando tecnologie aerodinamiche potenziate. Il suo obiettivo non \u00e8 solo il caos, ma la destabilizzazione politica di New York colpendo direttamente il cuore del potere cittadino. Il Sindaco \u00e8 diventato l'ostaggio perfetto per costringere la citt\u00e0 alla sottomissione, mentre il Goblin utilizza il suo Glider per mantenere un vantaggio tattico e una mobilit\u00e0 superiore rispetto alle capacit\u00e0 di arrampicata di Spider-Man.\n\n3. Branching Factor:\nMin: 2, Max: 4.\n\n4. Depth Constraints:\nMin: 4, Max: 7.",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\nL'eroe Spider-Man (Peter Parker) si trova intrappolato all'interno di un vecchio studio cinematografico abbandonato nel Queens, trasformato dal supercriminale Mysterio (Quentin Beck) in un labirinto di illusioni tecnologiche e trappole mortali. Per sconfiggere il villain e salvare la citt\u00e0 dalla minaccia di un gas allucinogeno su larga scala, Spider-Man deve neutralizzare la barriera olografica che protegge la sala di controllo principale e sottomettere Mysterio.\n\n- Stato Iniziale:\n  * Spider-Man si trova nell'area \"Ingresso degli Studios\", equipaggiato con i suoi spararagnatele standard.\n  * Mysterio si trova nella \"Sala di Regia\", protetto da una barriera a campo di forza olografico (attiva) e dal suo casco corazzato.\n  * La \"Porta di Sicurezza della Sala di Regia\" \u00e8 chiusa elettronicamente.\n  * Nel \"Capannone delle Scenografie\" si trova un Drone Proiettore ostile che sorveglia l'area.\n  * Nel \"Laboratorio degli Effetti Speciali\" si trova un \"Dispositivo EMP Tascabile\" (fondamentale per sovraccaricare i sistemi di proiezione).\n  * Nella \"Galleria dei Riflettori\" \u00e8 presente la \"Tessera d'Accesso Magnetica\" per la porta di sicurezza.\n\n- Obiettivo Finale (Goal):\n  * Mysterio \u00e8 nello stato \"Sconfitto/Incapacitato\" E il Generatore del Gas Allucinogeno \u00e8 nello stato \"Disattivato\" E Spider-Man si trova nella \"Sala di Regia\".\n\n- Ostacoli:\n  * Drone Proiettore Olografico: genera falsi bersagli e blocca l'accesso al Laboratorio Effetti Speciali finch\u00e9 non viene disattivato o distrutto.\n  * Porta di Sicurezza: sbarramento fisico che richiede la Tessera Magnetica per essere aperta.\n  * Barriera a Campo di Forza Olografico: rende Mysterio invulnerabile agli attacchi diretti finch\u00e9 il proiettore principale non viene disattivato tramite il Dispositivo EMP.\n  * Casco di Mysterio: richiede l'uso della ragnatela per accecare i sensori prima di poter sferrare il colpo finale.\n\n2. Context & Background:\nQuentin Beck, noto come Mysterio, ha orchestrato un piano per screditare Spider-Man e sottomettere New York diffondendo un gas allucinogeno dai canali di ventilazione di un vecchio studio di produzione cinematografica. L'intero complesso \u00e8 stato cablato con tecnologia olografica avanzata, rendendo la realt\u00e0 indistinguibile dalla finzione. Spider-Man deve fare affidamento sulla combinazione del suo Senso di Ragno, della tecnologia avanzata e dell'intelletto scientifico per distinguere le minacce reali dalle proiezioni, aggirare i sistemi di sicurezza e neutralizzare la minaccia prima che il gas venga rilasciato.\n\n3. Branching Factor:\n- Minimo: 2\n- Massimo: 4\n\n4. Depth Constraints:\n- Minimo: 4\n- Massimo: 7",
+            "branching_factor": [
+                2,
+                4
+            ],
+            "depth_constraint": [
+                4,
+                7
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    },
+    {
+        "lore_document": {
+            "lore": "1. Quest Description:\n- **Stato Iniziale**: Il protagonista si trova nella Camera del Tempo all'interno del Tempio Antico. Nella stanza sono presenti tre supporti di pietra incantati: l'Altare del Passato, l'Altare del Presente e l'Altare del Futuro. Sull'Altare del Passato sono impilate tre reliquie sferiche di dimensioni diverse, imbevute di magia: la Sfera Piccola (in cima), la Sfera Media (al centro) e la Sfera Grande (alla base). Gli altari del Presente e del Futuro sono attualmente vuoti. Il protagonista ha le mani libere.\n- **Obiettivo Finale (Goal)**: Tutte e tre le reliquie devono essere trasferite e impilate sull'Altare del Futuro nello stesso ordine originale (Sfera Piccola in cima, Sfera Media al centro, Sfera Grande alla base).\n- **Ostacoli**:\n  1. *Vincolo di Peso/Dimensione*: La magia del tempio rende instabile qualsiasi altare se una sfera pi\u00f9 grande viene appoggiata sopra una sfera pi\u00f9 piccola. Cercare di farlo provoca un rigetto magico che impedisce l'azione.\n  2. *Vincolo di Manipolazione*: Il protagonista pu\u00f2 trasportare e muovere una sola sfera alla volta, e pu\u00f2 prelevare unicamente la sfera situata sulla sommit\u00e0 della pila di un determinato altare.\n\n2. Context & Background:\nIl Tempio Antico custodisce il Meccanismo dell'Eternit\u00e0, una gigantesca struttura arcanica che regola lo scorrere delle ere nel regno. A causa di una rottura nell'equilibrio cosmico, il tempo si \u00e8 arrestato. Per riattivare il flusso temporale, il Custode della Storia deve completare il \"Rito del Trasferimento\", spostando le tre Sfere dell'Esistenza dall'origine (Passato) al compimento (Futuro). Le sfere rappresentano la densit\u00e0 temporale: la Sfera Grande sostiene il peso della realt\u00e0, mentre le sfere pi\u00f9 piccole rappresentano eventi pi\u00f9 effimeri; schiacciare un evento leggero con il peso dell'Eternit\u00e0 causerebbe la frattura irreversibile della realt\u00e0.\n\n3. Branching Factor:\n- Min: 5\n- Max: 10\n\n4. Depth Constraints:\n- Min: 5\n- Max: 10",
+            "branching_factor": [
+                5,
+                10
+            ],
+            "depth_constraint": [
+                5,
+                10
+            ]
+        },
+        "syntax_errors": 0,
+        "logic_errors": 0,
+        "critical_errors": 0
+    }
+]

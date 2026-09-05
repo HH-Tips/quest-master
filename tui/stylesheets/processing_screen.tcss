@@ -1,0 +1,61 @@
+ProcessingScreen {
+    background: $surface;
+}
+
+#top-stats {
+    padding-top: 1;
+    height: 3;
+    background: $boost;
+    border-bottom: tall $accent;
+    align: center middle;
+}
+
+#operation-info {
+    padding: 1;
+}
+
+.stat-item {
+    width: 1fr;
+    content-align: center middle;
+    text-style: bold;
+    padding: 0 1;
+}
+
+/* Colori specifici per i contatori */
+#stat-attempt { color: $text; }
+#stat-syntax { color: #FFA500; } /* Arancione */
+#stat-logic { color: #3498db; }  /* Blu */
+#stat-critical { color: $error; } /* Rosso */
+#stat-regen { color: #9b59b6; }   /* Viola */
+
+TextArea {
+    height: 1fr;
+    margin: 1;
+    border: solid $primary;
+}
+
+TabbedContent {
+    height: 1fr;  /* Prendi tutto lo spazio disponibile */
+    width: 100%;
+}
+
+#bottom-bar {
+    height: auto;
+    padding: 1;
+    dock: bottom;
+    background: $surface;
+}
+
+#errors-label {
+    width: auto;
+}
+
+#errors-counter {
+    width: auto;
+    margin-left: 1;
+    color: $error;
+}
+
+ProgressBar {
+    width: auto;
+}
